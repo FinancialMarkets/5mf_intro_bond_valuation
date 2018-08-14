@@ -108,7 +108,7 @@
 
 ## Bond Value
 
-<p align="left">The value of the bond is often written as: $B_0 = \sum_{i=1}^6 \frac{50}{1.08^i} + \frac{1000}{1.08^{6}} = \$861.31$</p>
+<p align="left">The value of the bond is often written as: `$$ B_0 = \sum_{i=1}^{6} \frac{50}{1.08^i} + \frac{1000}{1.08^{6}} = \$861.31 $$`</p>
 
 <p align="left">Which can be rewritten to use the present value of an ordinary annuity formula: $B_0 = \$50\left(\frac{1-\frac{1}{1.08^{6}}}{.08}\right) + \frac{\$1000}{1.08^{6}} = \$861.31$</p>
 
@@ -136,7 +136,7 @@
 <section data-markdown>
 	<textarea data-template>
 
-- The value of the bond is then: $B_0 = \sum_{i=1}^{20}\frac{\$25}{1.04^i} + \frac{\$1000}{1.04^{20}} = \$859.22$
+- The value of the bond is then: `$B_0 = \sum_{i=1}^{20}\frac{\$25}{1.04^i} + \frac{\$1000}{1.04^{20}} = \$859.22$`
 
 - It is important to discount the \$1000 at 4% over 20 periods, and not at 8% over 10 periods.  This is because the effective rate is 4% semiannually, which is not equal to 8% annually (see the time-value-of-money presentation).
 
@@ -169,11 +169,11 @@
 
 ## The $YTM$
 
-<p align="left">The $YTM$ is the single discount rate for which the present value of all the bond's future cash flows equals the bond's market price.</p>
+<p align="left">The <span class="fragment highlight-green">$YTM$</span> is the single <span class="fragment highlight-green">discount rate for which the present value of all the bond's future cash flows equals the bond's market price</span>.</p>
 
-- Equivalently, we can define the $YTM$ as the internal rate of return on the bond  ($IRR$).
+- Equivalently, we can define the $YTM$ as the internal rate of return on the bond (<span class="fragment highlight-green">$IRR$</span>).
 
--  This means you can find the $YTM$ using a spreadsheet by setting the bond price as a cash outflow, and the bond's cash flows as inflows, and then use the $=IRR()$ function.
+-  This means you can find the $YTM$ using a spreadsheet by setting the bond price as a cash outflow, and the bond's cash flows as inflows, and then use the <span class="fragment highlight-red">`=IRR()`</span> function.
 	</textarea>
 </section>
 
@@ -200,9 +200,9 @@
 
 ## Do We Always Earn the $YTM$?
 
-<p align="left">One misconception about bonds is that if you buy a bond with a 9\% $YTM$ and hold it to maturity, then so long as the bond doesn't default, you will earn 9% per year.</p>
+<p align="left">One misconception about bonds is that if you buy a bond with a 9% $YTM$ and hold it to maturity, then so long as the bond doesn't default, you will earn 9% per year.</p>
 
-- This is *only* true for zero coupon bonds.
+- This is <span class="fragment highlight-red">*only* true for zero coupon bonds</span>.
 
 - For coupon bonds, in the $YTM$ calculation it is assumed you can *reinvest* coupon payments at the $YTM$.  In reality, you will reinvest at whatever the rate is when you receive the coupon payment. 
 
@@ -214,9 +214,9 @@
 
 ## A Note on $YTM$
 
-<p align="left">To get the value of a bond, we discount each cash flow at the $YTM$.  However, to get the $YTM$, we set the discounted cash flows equal to the market price and then solve for the discount rate ($YTM$).  This, of course, is circular.</p>
+<p align="left">To get the value of a bond, we discount each cash flow at the $YTM$.  However, to get the $YTM$, we set the discounted cash flows equal to the market price and then solve for the discount rate ($YTM$).  This, of course, <span class="fragment highlight-red">is circular</span>.</p>
 
-- The $YTM$ is really a way to quote the bond's return, so you can compare it with others.  This is done because the bond's price is not that informative.
+- The <span class="fragment highlight-green">$YTM$ is really a way to quote the bond's return</span>, so you can compare it with others.  This is done because the bond's price is not that informative.
 	</textarea>
 </section>
 
@@ -224,7 +224,7 @@
 	<textarea data-template>
 ## A Note on $YTM$
 
-<p align="left">For example, two 10-year U.S. Treasury notes will have the same $YTM$, but can have vastly different prices. A 10-year note issued yesterday will trade near \$1000 because its $YTM$ is very close to its coupon.  A 30-year Treasury bond issued 20 years ago (at a say 18\% coupon) is now a 10-year Treasury note with a price based on its $YTM$ and coupon rate differential. The bonds will have different prices, but the same $YTM$.</p>
+<p align="left">For example, two 10-year U.S. Treasury notes will have the same $YTM$, but can have vastly different prices. A 10-year note issued yesterday will trade near \$1000 because its $YTM$ is very close to its coupon.  A 30-year Treasury bond issued 20 years ago (at a say 18% coupon) is now a 10-year Treasury note with a price based on its $YTM$ and coupon rate differential. The bonds will have different prices, but the same $YTM$.</p>
 
 	</textarea>
 </section>
